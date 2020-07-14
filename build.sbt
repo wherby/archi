@@ -6,7 +6,7 @@ lazy val docs = (project in file("docs")).
   //enablePlugins(ParadoxPlugin).
   enablePlugins(ParadoxMaterialThemePlugin).
   settings(
-  name  := "document for doradilla",
+  name  := "document for software design",
   //version := "0.1.0",
   //paradoxTheme := Some(builtinParadoxTheme("generic")),
   paradoxIllegalLinkPath := raw".*\\.md".r,
@@ -16,13 +16,13 @@ lazy val docs = (project in file("docs")).
  Compile / paradoxMaterialTheme ~= {
    ParadoxMaterialTheme()
      .withColor("teal", "indigo")
-   _.withRepository(uri("https://github.com/wherby/docs"))
+   _.withRepository(uri("https://github.com/wherby/archi"))
      .withSocial(
        uri("https://github.com/wherby"),
        uri("https://wherby.github.io"))
  },
   paradoxProperties in Compile ++= Map("project.description" -> "Description for doradilla library.",
-    "github.base_url" -> s"https://github.com/wherby/docs")
+    "github.base_url" -> s"https://github.com/wherby/archi")
 )
 
 

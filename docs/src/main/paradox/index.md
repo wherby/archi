@@ -1,40 +1,8 @@
-# Docs
-
-This is the introduction for doradilla library.
-
+# software architecture
 @@toc { depth=1 }
-
-
 @@@ index
 
-* [Single truth principle](singletruthprinciple.md)
+* [issues](sub/issues.md)
 
-* [Database single truth principle](database/index.md)
-
-* [Database null field](fieldnull/index.md)
-
-* [Engagement add](engagement/index.md)
-
-* [Query overflow](slickqueryfailed/index.md)
-
-* [Slick shadow query](shadowquery/index.md)
-
-* [Inconsistent data](inconsistent/index.md)
-
-* [Daily job](dailyjob/index.md)
-
-* [Oauth2 client for Pac4j](pac4j/index.md)
-
-* [NIO and Akka-Http](nio/index.md)
-
-* [Store file in database](databasewithfile/index.md)
-
-* [Flyway failed on mysql 8.0](flywayonmysql/index.md)
-
-* [Javascript issue in IE](iefrontend/index.md)
-
-* [Api failed](apicall/index.md)
-
-* [System architecture](systemdesign/index.md)
 
 @@@
